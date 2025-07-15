@@ -300,7 +300,8 @@ function AppContent() {
             </main>
 
             <footer className="app-footer">
-              <p>Soham's Air Quality Monitor - Built using React</p>
+              <p>Built with React • Uses Geolocation, Canvas, Intersection Observer, 
+              Background Tasks, Network Information APIs; etc</p>
               {networkInfo.effectiveType && (
                 <p className="network-info">
                   Connection: {networkInfo.effectiveType} •
