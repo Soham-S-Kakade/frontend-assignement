@@ -200,7 +200,7 @@ function AppContent() {
   return (
     <div className="app">
       <Routes>
-        <Route path="/home" element={
+        <Route path="/" element={
           <>
             <header className={`app-header ${isHeaderScrolled ? 'scrolled' : ''}`}>
               <h1>🌍 Smart Air Quality Monitor</h1>
@@ -311,7 +311,7 @@ function AppContent() {
             </footer>
           </>
         } />
-        <Route path="*" element={<Navigate to="/home" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
   );
